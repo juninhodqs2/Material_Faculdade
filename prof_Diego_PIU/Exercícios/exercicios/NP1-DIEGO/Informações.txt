@@ -1,0 +1,17 @@
+_Grupo 06 do PIM_
+
+Trabalho que substitui a NP1 - PIU
+
+Entrega: 23/04/2020
+
+Integrantes:
+ISAAC SILVA ANTUNES – RA: 02410035429
+MARCIO JACINTHO JÚNIOR - RA: 02410036216
+MAYKE WEDERSON FERREIRA XAVIER - RA: 02410035006
+PAULO RICARDO CASTRO - RA: 02410035351
+PEDRO HENRIQUE SILVA RODRIGUES - RA: 02410036151
+YURI REIS FAGUNDES - RA: 02410035586
+
+link do google docs com BMC: https://docs.google.com/drawings/d/10apygTwSqYuj5sdgOgZGcE4_7-8Cdn8LeCEcQg3gs_4/edit?usp=sharing
+
+link do github com o html: https://github.com/paulorcastro/HTML-NP1

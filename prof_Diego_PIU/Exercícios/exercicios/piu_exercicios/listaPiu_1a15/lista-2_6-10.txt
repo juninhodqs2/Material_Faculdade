@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Site 02</title>
+</head>
+<body style="background-color: yellow">
+	<h1>Site 02 criado para atribuir um diretório de navegação entre páginas</h1>
+	<p>Vou criar um diretório para o retorno pra página 01</p>
+	<hr>
+
+	<table border="1">
+		<th>
+			<td><a href="file:///C:/Users/inss/Documents/prof_Diego_/site_6-10/lista_6-10.html">VOLTAR</a></td>
+		</th>
+	</table>
+	<hr>
+
+	<p><a href="#heading1">Interno 01</a></p>
+	<p><a href="#heading2">Interno 02</a></p>
+	<p><a href="#heading3">Interno 03</a></p>
+	<p><a href="#heading4">Go to Table</a></p>
+	<hr>
+
+	<a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" >juninhodqs2@gmail.com</a>
+	<hr>
+
+	<a href="https://classroom.google.com/w/MzA3MzcyNzUxODZa/t/all">Aula top de PIU</a>
+	<hr>
+
+	<img src="imagens/pc.jpg" title="Aprendiz de HTML" height="400" width="400" border="2">
+	<hr>
+
+	<h1 id="heading4">Agora é a hora da tabela</h1>
+	<p>Vou fazer uma completa com as funcionalidades que aprendi</p>
+	<p>Bora tentar??</p>
+	<hr>
+
+	<table border="1" width="50%" >
+		<tr>
+			<td align="center">01</td>
+			<td align="center">02</td>
+		</tr>
+			<td align="center">04</td>
+			<td align="center">03</td>
+	</table>
+	<hr>
+
+	<table border="2" width="20%">
+		<td rowspan="6" align="center">
+			t<br/>
+			e<br/>
+			c<br/>
+			l<br/>
+			a<br/>
+			d<br/>
+			o<br/>
+		</td>
+		<tr>
+			<td colspan="10" align="center">aqui ficaria o F1-F0</td>
+
+		</tr>
+		<tr>
+			<td align="center">letras do teclado </td>
+        	<td colspan="7" align="center"> insert/delete</td>
+		</tr>
+		<tr>
+			<td height="50" align="center">letras </td>
+       		<td align="center" valign="bottom" >setas</td>
+        	<td align="center" valign="bottom">123</td>
+        	<td align="center" valign="center">456</td>
+        	<td align="center" valign="top">789</td>
+		</tr>
+	</table>
+	<hr>
+
+	<h1 id="heading1">Teste de busca de links internos 01</h1>
+	<p>podemos ver que te levou ao lugar certo</p>
+	<hr>
+
+	<h2 id="heading2">Teste de busca de links internos 02</h2>
+	<p>Curioso pra ver como funcina ne ?</p>
+	<hr>
+
+	<hr>
+	<h3 id="heading3">Teste de busca de links internos 02</h3>
+	<p>Também fiquei vendo essa funcionalidade maenira!</p>
+	<hr>
+
+	<hr>
+	
+	<hr>
+
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lista 6-10</title>
+</head>
+<body style="background-color:orange">
+	<h1>Vamos começar a lista dos exemplos 6 a 10</h1>
+	<p>Nessa lista vamos revisar o que ja foi visto e agregar mais funcionalidades ao nosso webSite</p>
+	<h2>Vamos ver no que vai dá...!!</h2>
+	<p>Tenho certeza que esses execícios vão me ajudar muito, é tudo questão de esforço e muita dedicação</p>
+	<i>O texto em itálico serve para enfatizar algo, como por exemplo, mostrar que no texto tem uma palavra de outro idioma </i>
+	<br>
+
+	<small> Os textos menores serve para fazermos uma citação direto(caso o documento fosse um PIM....)</small>
+	<br>
+
+	<b><i>Temos diversas maneiras de montarmos um site e utilizar a formatação de letras</i></b>
+	<br>
+
+	Temos a quebra de linha...<br>Que nos facilita na hora de organizar o texto.
+	<br>
+
+	E uma novidade pra mim foi a parte de colocar a barra de divisão... achei massa demais 
+	<hr>
+
+	<h1>E a construção de uma lista?(não numerada)</h1>
+	<ul>
+		<li>O primeiro item da lista</li>
+		<li>O segundo item </li>
+		<li>Podemos ter "n" itens </li>
+		<li>Vai depender do seu sistema e como vai abordar</li>
+	</ul>
+	<hr>
+
+	<h2>Agora vai ai uma lista, só que numerada...</h2>
+	<ol>
+		<li>Os itens são de sua preferência</li>
+		<li>Se eu fosse numera os trabalhos da faculdade??</li>
+		<li>Teria que reservar umas 30 linhas</li>
+	</ol>
+	<hr>
+
+	<h3 style="background-color: pink">Assim a gente mudará a cor da linha por inteira</h3>
+	<hr>
+
+	<h4>Vou atribuir uma imagem ao site, se liga nessa.....</h4>
+	<a href="https://br.freepik.com/fotos-vetores-gratis/negocio">Esse link nos leva ao site FreePik, depois olhem!!! </a>
+	<hr>
+	
+	<a href="C:/Users/inss/Documents/prof_Diego_/site_6-10/lista-2_6-10.html">Bora pra próxima página do site??</a>
+	<hr>
+
+
+
+
+</body>
+</html>

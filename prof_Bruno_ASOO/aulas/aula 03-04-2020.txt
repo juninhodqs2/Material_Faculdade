@@ -1,0 +1,27 @@
+aula- 03-04-2020
+Professor Bruno 
+
+- codigo de barra é uma representação do código em si 
+- classe roupa :
+	+ <<oid>> Codigo: interger
+ 	+ Tipo: string
+	+ Tamanho: string
+	+ QtdEstoque: interger
+	+ Valor: real
+	+ Descricao: string
+
+- Classe cliente:
+	+ <<oid>> Id: integer
+	+ Nome: string
+	+ CpfCnpj: string
+	+ Email: string
+
+- Classe compra:
+	+ <<oid>> Id: interger
+	+ ValorTotal: real
+	+ Data: dateTime
+	
+- Classe RoupaComprada:
+	+ <<oid>> Id: interger
+	+ Qtd: interger
+	+ ValorUnitario: Real

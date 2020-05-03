@@ -1,0 +1,29 @@
+Usuário:
+- manuseio do equipamento	
+- usuabilidade
+- processamento	
+
+Desenvolvedor:
+- Sistema de processamento
+- armazenamento
+- versionamento	
+
+Organização:
+- custo da produção	
+- diferenciamento das ferramentas existente 	
+- vendo do produto
+
+iso 9001:
+voltada para qualidade de projetos, todos os processos iniciais
+
+iso 9002:
+focada em produção e instalação do produto 
+
+iso 9003:
+checagem de qualidade e funcionalidade do produto 
+
+iso 9004:
+parte de gestão , gerenciamento do projeto 
+ 
+
+iso 12207:

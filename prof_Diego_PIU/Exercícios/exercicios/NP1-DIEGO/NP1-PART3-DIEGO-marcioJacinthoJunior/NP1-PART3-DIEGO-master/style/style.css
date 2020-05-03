@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    border: 0;
+    background: none;
+    text-decoration: none;
+}
+
+.body-color {
+    background-color: rgb(243, 245, 248);
+}
+
+li {
+    padding: 0 16px;
+}

@@ -1,0 +1,20 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 28;
+    background: #fff;
+    display: flex;
+    flex: auto;
+    padding: 0 16px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .07);
+    height: 64px;
+    margin-bottom: 0px;
+}
+
+.header .menu nav #opcoes {
+    display: inline-flex;
+    margin: 15px;
+    margin-bottom: 0;
+}

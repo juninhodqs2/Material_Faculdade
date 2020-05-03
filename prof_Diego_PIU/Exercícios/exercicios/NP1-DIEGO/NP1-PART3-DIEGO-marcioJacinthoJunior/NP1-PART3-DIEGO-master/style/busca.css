@@ -1,0 +1,78 @@
+.busca {
+    margin-top: -40px;
+    /*arrumar esse detalhe  */
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.308);
+    background-color: rgb(255, 255, 255);
+    max-width: 1024px;
+    width: auto;
+    height: 148px;
+}
+
+.tipoBusca nav {
+    margin: 1%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.tipoBusca nav ul li {
+    margin-right: 3%;
+    padding: 8px 6px;
+    display: inline-flex;
+    margin: 15px;
+    margin-bottom: 0;
+}
+
+.tipoBusca nav ul #active a {
+    color: #2e2e37;
+    border-bottom: 2px solid #f3123c;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 19px;
+}
+
+.tipoBusca nav ul li a {
+    color: #94949e;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.boxBuscar {
+    padding: 5px 5px 5px 10px;
+    margin: 30px;
+    margin-top: 0;
+    border: 2px solid #c2c2ce;
+    border-radius: 10px;
+    height: 47px;
+    float: left;
+}
+
+.position {
+    vertical-align: 0px;
+}
+
+.boxBuscar input {
+    padding-left: 3px;
+    font-size: 20px;
+    width: 661px;
+}
+
+.btn-ofertas {
+    height: 47px;
+    width: 150px;
+    padding: 6px 12px;
+    font-size: 16px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #f3123c;
+    box-shadow: -1px 13px 29px -6px rgba(243, 18, 59, 0.39);
+    border: 1px solid transparent;
+}
+
+.btn-ofertas:hover {
+    background-color: #bd0f2e;
+    box-shadow: -1px 13px 29px -6px #bd0f2e;
+}

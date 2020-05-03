@@ -1,0 +1,97 @@
+.lateralbusca {
+    background: white;
+    display: inline-block;
+    width: 25%;
+    margin-top: 0px;
+    height: 100%;
+}
+
+.lateralbusca ol {
+    display: inline-block;
+    margin: 10px 40px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.lateralbusca p {
+    font-size: 12px;
+    color: #2e2e37;
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+#buscalateral {
+    width: 90%;
+    margin: 0 auto;
+    height: 40px;
+    border: 2px solid #ecedf2;
+    font-size: 14px;
+}
+
+.linha {
+    margin: 30px 0;
+   
+}
+
+#checkbox01,
+#checkbox02 {
+    margin: 10px auto;
+    width: 90%;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.imagemcheck {
+    width: 15px;
+    height: auto;
+    margin-left: 7px;
+}
+
+#checkbox03,
+#checkbox04 {
+    display: inline-block;
+    margin: 15px 30px;
+}
+
+.carrosdabusca {
+    width: 75%;
+    min-width: 300px;
+    float: right;
+    vertical-align: top;
+    margin: 0;
+}
+
+.carrosdabusca h1 {
+    margin: 15px 150px 15px 50px;
+    font-size: 22px;
+    color: #2e2e37;
+    font-weight: 600;
+}
+
+
+    
+    
+#card-deck {
+    margin: 20px 40px;
+    padding: 15px;
+    flex: none;
+}
+
+#card-deck .card {
+    width: 265px;
+    min-height: 420px;
+    box-sizing: border-box;
+    flex: none;
+    margin: 8px 8px;
+    border-radius: 10px;
+  
+    
+    
+}
+
+div.card a {
+    text-decoration: none;
+    color: black;
+}

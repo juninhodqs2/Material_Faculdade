@@ -1,0 +1,37 @@
+.carrosel-de-categorias {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 20px
+}
+
+.carrosel-de-categorias h2 {
+    font-size: 18px;
+    color: #686976;
+    font-weight: 500;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.categoria-div-figure {
+    display: inline-block;
+}
+
+.categorias-figure {
+    max-width: 312px;
+    height: 190px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.color-icon {
+    color: red;
+    /* color: transparent; */
+}
+
+.carrosel-de-categorias .color-icon:hover {
+    border: 1px solid #000000;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.575);
+    color: black;
+}

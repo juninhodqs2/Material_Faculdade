@@ -1,0 +1,33 @@
+Aula 06-04-2020
+
+VERIFICAÇÃO E VALIDAÇÃO DE UM SOFTWARE
+
+Planejamento – os inspetores são escolhidos 
+e os materiais a serem revisados são preparados;
+Apresentação – o grupo recebe os materiais e instruções
+ do que inspecionar;
+Preparação – os inspetores preparam-se 
+para desempenhar cada papel designado;
+Reunião de Inspeção – os 
+defeitos são encontrados, discutidos e categorizados;
+Retrabalho – o
+ autor do documento corrige os defeitos encontrados pelos 
+inspetores;
+Acompanhamento – os inspetores verificam se tudo foi corrigido
+
+
+- A intenção de uma inspensão é para fazer uma correção de falhas, dentre
+outros fatores
+
+- A Passo a passo ou Cognitive Walkthrough (Cognitiva pela cidade) é um método 
+de inspeção da usabilidade de um sistema interativo que se concentra em avaliar 
+a facilidade de aprendizado projeto .
+Seu objetivo é ver como um usuário pensa e se comporta quando usa uma interface 
+pela primeira vez. Verifica-se que, se os usuários têm uma escolha, eles preferem 
+aprender através da exploração e observação, em vez de ler um manual ou seguir as instruções.
+Essa técnica é testada em um protótipo inicial de baixa fidelidade de um aplicativo
+ e geralmente é realizada por avaliadores especialistas. Responsáveis ??por fazer uma caminhada 
+(' caminhada ') por uma série de tarefas típicas que suportam o sistema.
+A principal vantagem da jornada cognitiva é a capacidade de gerar resultados muito rapidamente 
+e a um custo muito baixo , especialmente quando comparado a outras técnicas de teste de usabilidade,
+como a 'Avaliação Heurística'.

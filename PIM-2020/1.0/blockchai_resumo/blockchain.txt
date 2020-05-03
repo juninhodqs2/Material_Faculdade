@@ -1,0 +1,17 @@
+- blockchain é basicamente a rede de proteção que faz a segurança, gera a imutabilidade e credibilidade de uma criptomoeda(no caso , bitcoin)
+- existem tres tipode de tecnologia principais que se combinam para criar uma blockchai(rede de segurança)
+1- criptografia de chave particular
+2- uma rede distribuida com uma razão geral compartilhada 
+3- un incentivo para resolver as transações da rede, manutenção de registros e segurança
+- blockchain é uma rede que gera uma assinatura digital
+- a rede distribuida serve para que o acesso seja remoto e acompanhado por várias formas de tecnologias(pc, tablet, smartphone,etc), acesso 
+em todo o mundo
+- Esta rede não é regulada por uma autoridade central, mas sim pelas regras escritas para o funcionamento da rede.A partir do momento que eu 
+aceito participar dela, estou sujeito às suas regras, que só podem ser modificadas por meio de um consenso entre todos os participantes, no caso, 
+é a rede que regula a própria rede. OK, isso explica o termo “chain”
+- block é vasicamento o bloco que a sua transação pertence 
+- A blockchain é uma espécie de banco de dados em que as negociações de Bitcoins ficam gravadas.
+- blockchain é uma cadeia de blocos. Cada bloco é formado por várias informações sobre as diversas transações e possui uma assinatura digital única, 
+chamada de hash ou proof of work. Essa assinatura funciona como uma impressão digital do bloco e ajuda a dar mais segurança ao processo, já que tudo
+é criptografado.Essa hash funciona como um elo de ligação entre os blocos, já que um bloco carrega sua própria hash e também a hash do bloco anterior. 
+Com isso, vai se formando a cadeia, ou corrente, que liga vários blocos de informação entre si

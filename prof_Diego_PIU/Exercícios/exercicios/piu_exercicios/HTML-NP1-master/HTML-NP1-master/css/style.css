@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css?family=Comic+Neue:700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    /*border: none;    font-family: 'Pridi', serif;*/
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* body {
+    background: rgb(245, 239, 215);
+} */
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* HEADER */
+
+.headerDesktop {
+    width: 100%;
+    height: 96px;
+    background-color: rgb(245, 239, 215);
+}
+
+#logo {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    width: 96px;
+    height: 90px;
+    float: left;
+}
+
+.menu ul {
+    padding: 3% 4%;
+    margin-bottom: 0px;
+}
+
+.menu ul li {
+    font-weight: normal;
+    margin-top: 0.5px;
+    margin-left: 0.5px;
+    padding: 0 10px 0 10px;
+    float: right;
+}
+
+.menu ul li a:hover {
+    color: rgb(125, 158, 63);
+}
+
+.menu ul li a:visited {
+    color: rgb(0, 0, 0);
+}
+
+
+/* SLIDER/PESQUISA */
+
+.slider {
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: auto;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider h1 {
+    font-family: 'Comic Neue', cursive;
+    color: rgb(92, 114, 47);
+    text-shadow: 0.1em 0.1em 0.1em rgba(255, 255, 255, 0.664);
+    font-size: 30pt;
+}
+
+.sliderImage {
+    position: absolute;
+    opacity: 0;
+    animation-name: animacao;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacao {
+    25% {
+        opacity: 60%;
+        transform: scale(1.1, 1.1);
+    }
+    50% {
+        opacity: 35%;
+    }
+}
+
+.sliderImage:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.sliderImage:nth-child(2) {
+    animation-delay: 5s;
+}
+
+.sliderImage:nth-child(3) {
+    animation-delay: 8s;
+}
+
+.slogan {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.busca {
+    left: 45%;
+    position: absolute;
+    transform: translateX(-45%);
+    border-left: 1px solid rgb(125, 158, 63);
+    border-top: 1px solid rgb(125, 158, 63);
+    border-bottom: 1px solid rgb(125, 158, 63);
+    border-radius: 10px 13px 13px 10px;
+}
+
+.divBusca {
+    width: auto;
+    height: auto;
+    min-height: 42px;
+    min-width: 358px;
+    background-color: #ffffff;
+    border-radius: 10px 13px 13px 10px;
+}
+
+.btnBusca {
+    width: auto;
+    height: auto;
+    min-width: 120px;
+    min-height: 42px;
+    border-radius: 0px 10px 10px 0px;
+    background: rgb(125, 158, 63);
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #FFF;
+    border: none;
+}
+
+.btnBusca:hover {
+    background: rgb(125, 158, 0);
+}
+
+#search {
+    margin: 8px;
+    width: 22px;
+    height: 22px;
+    float: left;
+}
+
+.txtBusca {
+    background-color: transparent;
+    padding-left: 5px;
+    margin-top: 2.5px;
+    font-size: 21px;
+    border: none;
+    height: 32px;
+    width: 300px;
+}
+
+
+/* PROPAGANDAS */
+
+#textopropaganda {
+    text-align: center;
+    font-size: 20pt;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(125, 158, 63);
+}
+
+.conjuntoDePropaganda {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.486);
+    padding: 10px;
+    background: rgb(243, 242, 238);
+    /* background-color: rgb(231, 0, 0); */
+}
+
+.propaganda ul {
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    /* background-color: lightcoral; */
+}
+
+.propaganda ul li {
+    display: inline-table;
+    margin-left: 0.2%;
+    margin-right: 0.2%;
+    max-width: 369px;
+    max-height: 364px;
+    
+    /* background-color: rgb(128, 148, 240); */
+}
+
+figure.foto_legenda {
+    position: relative;
+}
+
+figure.foto_legenda img {
+    padding: 10px 5px 10px 5px;
+    width: 369px;
+    height: 240px;
+    
+    
+    /* background-color: indigo; */
+}
+
+figure.foto_legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 10px;
+    background-color: rgba(192, 192, 192, 0.5);
+    color: rgb(255, 255, 251);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: 1s;
+    /* background-color: lawngreen; */
+}
+
+figure.foto_legenda:hover figcaption {
+    opacity: 1;
+}
+
+figure.foto_legenda figcaption p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.textPropaganda {
+    padding: 0px 5px 5px 5px;
+    width: auto;
+    /* background-color: rgb(235, 196, 23); */
+    margin-bottom: 60px;
+}
+
+.textPropaganda h3 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #000000;
+}
+
+.textPropaganda h4 {
+    font-size: 13px;
+    font-weight: normal;
+    color: #000000;
+}
+
+.textPropaganda h3:visited {
+    color: #000000;
+}
+
+.textPropaganda h4:visited {
+    color: #000000;
+}
+
+.lista p3 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(125, 158, 63);
+}
+
+.espaco {
+    margin: 500px;
+}
+
+.hrMain {
+    margin: 30px 10px 10px 10px;
+    border-top: 1px dotted rgb(0, 0, 0, 0.486);
+}
+
+
+/* footer */
+
+.footer {
+    position: absolute;
+    background-color: rgb(125, 158, 63);
+    width: 100%;
+    height: 100px;
+}
+
+#footerImage img {
+    border-radius: 50px;
+    padding: 10px 10px 10px 10px;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.footer ul {
+    padding: 3% 4%;
+}
+
+.footer ul li {
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 0.5px;
+    margin-left: 0.5px;
+    padding: 0 10px 0 10px;
+    float: right;
+}
+
+.footer ul li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.footer ul li a:visited {
+    color: #000000;
+}
+
+
+/* CSS do Castdastro e Login*/
+
+#cadastrologin h1 {
+    text-align: center;
+    font-size: 20pt;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(125, 158, 63);
+}
+
+section.formulario {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 500px;
+    padding: 1em;
+    border: 2px solid rgb(125, 158, 63);
+    border-radius: 1em;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.486);
+}
+
+section.formulario label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+section.formulario input {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+section.formulario input:focus {
+    border-color: #000;
+}
+
+section.formulario form div+div {
+    margin-top: 1em;
+}
+
+section.formulario button {
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    width: 100px;
+    height: 50px;
+    font-size: 10pt;
+    background-color: rgb(125, 158, 63);
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+section.formulario .button {
+    text-align: center;
+}
+
+
+/*Css da pagina de produtos*/
+
+.Cabecalhoprodutos {
+    margin-bottom: 20px;
+    width: auto;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.Cabecalhoprodutos img {
+    margin-top: -200px;
+}
+
+.imagemprod {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loja {
+    padding: 3% 20% 3% 0%;
+    position: relative;
+    background-color: #ffffff;
+    box-shadow: rgb(0, 0, 0) 0px 0px 20px;
+    float: left;
+    margin-top: 20px;
+}
+
+.loja h3 {
+    padding-left: 20px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-size: 26px;
+}
+
+.loja h4 {
+    padding-left: 20px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.produto {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 250px;
+    height: auto;
+    float: left;
+}
+
+.infoprodutos {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.descricaoProduto {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.descricaoProduto p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.descricaoProduto h3 {
+    margin-left: 0;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.precos {
+    margin: 15px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.botaofazerpedido {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botaofazerpedido button {
+    border-radius: 40px;
+    padding: 10px 10px 10px 10px;
+    width: 150px;
+    height: 75px;
+    font-size: 10pt;
+    background-color: rgb(125, 158, 63);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

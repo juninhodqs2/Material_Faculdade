@@ -1,0 +1,77 @@
+.footer {
+    background-color: #2E2E37;
+    height: 480px;
+    position: static;
+    clear: both;
+}
+
+.footer .opcoes .localizacao {
+    color: white;
+    padding: 5px 28px 0px;
+    margin-bottom: 20px;
+}
+
+.lista-de-opcoes {
+    padding: 0 28px;
+}
+
+#lista {
+    display: inline-flex;
+}
+
+#titulo-lista {
+    padding: 0px 0px 0px 0px;
+}
+
+#titulo-lista h2 {
+    font-size: 16px;
+    color: white;
+}
+
+#itens-lista {
+    display: list-item;
+}
+
+#itens-lista #itens {
+    padding: 5px 0px;
+    width: 260px;
+}
+
+#itens a {
+    color: white;
+    font-size: 15px;
+}
+
+.footer .patrocionio p {
+    background-color: #ea0002;
+    padding: 0 28px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-align: right;
+    height: 45px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.santander-icon {
+    width: 128px;
+    padding-left: 10px;
+}
+
+.footer .direitos {
+    background-color: #4c4c59;
+    height: 45px;
+    padding: 0 28px;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    text-align: right;
+    height: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

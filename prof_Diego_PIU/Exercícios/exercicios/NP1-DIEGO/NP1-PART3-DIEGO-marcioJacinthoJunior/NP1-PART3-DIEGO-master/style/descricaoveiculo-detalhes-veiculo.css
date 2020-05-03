@@ -1,0 +1,253 @@
+.descricao {
+    margin-top: -40px;
+    display: flex;
+    position: relative;
+}
+
+
+/* DIREITA */
+
+.d-right {
+    width: 442px;
+    border-radius: 10px;
+    position: sticky;
+}
+
+.contato {
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 9px 0 rgba(66, 76, 87, 0.41);
+    padding: 20px 20px;
+}
+
+.preco-patrocinio {
+    /* padding: 80px; */
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 20px 0px;
+}
+
+.preco-patrocinio h1 {
+    padding: 10px 20px 10px 10px;
+}
+
+.preco-patrocinio h2 {
+    padding: 0px;
+    padding-top: 45px;
+    margin: 0px;
+    font-weight: 700;
+    color: black;
+    font-size: 20px;
+}
+
+#my-btn {
+    display: inline-flex;
+    height: 50px;
+    background-color: #f3123c;
+    border-color: #f3123c;
+}
+
+#color-bnt {
+    background-color: #f3123c;
+    border-color: #f3123c;
+}
+
+.icon-santander {
+    margin-left: 15px;
+    margin-top: 5px;
+    background: url(/images/santander_icon_white.svg) no-repeat scroll 0 transparent;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+
+.custom-control-label p {
+    font-size: 11px;
+}
+
+
+/* ESQUERDA */
+
+.d-left {
+    width: 792px;
+    margin-left: 60px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.detalhe {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 9px 0 rgba(66, 76, 87, 0.41);
+    padding: 20px 30px 20px 30px;
+    margin-bottom: 20px;
+}
+
+.d-1 {
+    padding-bottom: 40px;
+}
+
+.d-2 {
+    background-color: #2e2d37;
+    color: white;
+}
+
+.titulo-especificacao {
+    display: flex;
+    margin: 0px;
+}
+
+.titulo-especificacao h2 {
+    width: 724px;
+    padding: 0px 32px 15px 0px;
+    margin: 0px;
+}
+
+.titulo-especificacao h2 span p {
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+#nome {
+    color: #f3123c;
+    margin: 0px;
+}
+
+#format-text-especificacao-rapida {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: .07px;
+    margin-top: 5px;
+    display: block;
+    font-weight: 400;
+}
+
+#especificacao-rapida {
+    color: #686976;
+    font-size: 14px;
+    letter-spacing: .07px;
+    margin-top: 5px;
+    display: block;
+    font-weight: 400;
+}
+
+.format-text {
+    color: #fff;
+}
+
+#white {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: .07px;
+    margin-top: 5px;
+    display: block;
+    font-weight: 400;
+}
+
+.favorito-icon {
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.santander-financiamento-icon img {
+    height: 40px;
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.informacoes-veiculo {
+    display: inline-flex;
+}
+
+.itens {
+    padding: 0px;
+}
+
+.itens p {
+    font-size: 14px;
+    margin-top: 16px;
+    margin-bottom: 5px;
+}
+
+.itens.sobre {
+    padding: 0;
+}
+
+.itens.sobre #text-sobre {
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.coluna-informacao {
+    padding: 0;
+    padding-right: 44px;
+}
+
+.informacoes-veiculo {
+    margin: 0px;
+}
+
+#itens-do-veiculo {
+    padding-bottom: 20px;
+}
+
+.nome-vendendor h3 {
+    font-size: 24px;
+    color: #686976;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.nome-vendendor h3#tipo {
+    text-indent: 16px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.d-2 ul li {
+    padding-right: 40px;
+}
+
+li.itens p#p-titulo {
+    font-size: 18px;
+}
+
+#tamanho-do-form {
+    width: 560px;
+}
+
+.termos-forms {
+    padding-right: 25px;
+    margin: 0;
+}
+
+.footer-detalhe {
+    display: flex;
+    align-items: center;
+}
+
+.carrosel-cads {
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+#my-card-body {
+    padding: 10px;
+}
+
+.detalhe-card {
+    display: inline-flex;
+}
+
+.detalhe-card #data {
+    margin-right: 20px;
+}
+
+.detalhe-card #kms {
+    margin-left: 20px;
+}

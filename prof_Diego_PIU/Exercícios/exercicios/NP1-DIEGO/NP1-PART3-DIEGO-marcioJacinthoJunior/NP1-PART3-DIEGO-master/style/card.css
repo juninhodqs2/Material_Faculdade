@@ -1,0 +1,27 @@
+.card-links {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card-links h2 {
+    font-size: 18px;
+    color: #686976;
+    font-weight: 500;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.bnt-card-links {
+    font-size: 20px;
+    background-color: #f3123c;
+    color: rgb(255, 255, 255);
+    width: 230px;
+    height: 90px;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin: 8px;
+}

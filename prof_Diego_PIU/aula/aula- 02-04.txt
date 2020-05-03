@@ -1,0 +1,57 @@
+aula 02-04-2020
+
+ - O trabalho de produção da página HTML do Professor: Diego foi prorrogado para o dia 06/04/2020
+ - Modelo Pomodoro
+ - Aplicativo: Start time
+ - Aplicatico: Marvelapp
+ - Aplicativo: Lunacy
+ - Aplicativo: google sheet
+	fazendo um mapeamento(UC)
+ - livro: O Programador Pragmático - https://integrada.minhabiblioteca.com.br/books/9788577807345
+
+	
+ - *** Pergunta : tem algum material de melhor forma de contruir um site ***
+
+ - O que é uma engenharia Semiótica e Cognitiva
+	
+
+		NP1
+
+	
+	- levantamento e análise de requisitos - ok 
+
+	- elaborar todas as telas do sistema desenvolvidas em HTML - PAULO
+
+	- grupo até 3 pessoas
+
+	- entregas 09/04
+
+		mobile: protótipo no Marvel com as principais funcionalidades da versão - MJR
+
+		web: mapeamento de todas as telas e campos/informações de cada pagina
+
+		teoria: doc entre 2/3 paginas com pesquisa bibliografica com referencias dos topicos - YURI
+			- internet
+			- html
+			- css
+			- wireframe
+			- mockup
+
+		google classRoom um arquivo .txt noemado como: ENTREGA_NOME_SOBRENOME_DO_LIDER.txt
+		nome dos integrantes
+		link do marvel
+		link do google doc
+		link do google sheets
+	
+	- entrega 16/04
+	- entrega 23/04
+ 	- entrega 30/04
+
+ - oRGANIZAÇÃO DA PASTA DE UM PROJETO WEB - ARQUITETURA DA PASTA
+ - OLHAR SOBRE: UTF 18 (ACENTUAÇÃO)
+ - CAMINHO DAS PÁGINAS html
+ - 
+
+		
+		
+		

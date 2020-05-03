@@ -1,0 +1,12 @@
+três tópicos para levantamento de requisitos
+	- Requisitos Funcionais= são as funcionalidades do  sistema como:
+		* o sistema deve permitir ao usuário a opçao de efetuar login....
+	- Não funcionais(Qualidade)= Parte técnica de um ambiente como, segurança do sistema, desempenho, prevenção de falhas
+		* usabilidade 
+		* manutenibilidade
+		* confiabilidade
+		* desempenho
+		* portabilidade
+		* reusabilidade
+		* segurança
+	- Regra de negócio: regras que o sistema deve seguir
